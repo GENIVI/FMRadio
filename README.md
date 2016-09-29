@@ -6,3 +6,7 @@ Commons Attribution 4.0 International (CC BY 4.0). Click
 All code in this repository is licensed under Mozilla Public License
 v2 (MPLv2). Click [here](https://www.mozilla.org/en-US/MPL/2.0/) for
 details.
+
+This FM Radio HMI is intended for use with
+[fmradioservice](https://github.com/PDXostc/fmradioservice).
+
