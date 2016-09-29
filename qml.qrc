@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imports/components/AwesomeIcon.qml</file>
+        <file>imports/components/Box.qml</file>
+        <file>imports/components/BoxButton.qml</file>
+        <file>imports/components/BoxHeading.qml</file>
+        <file>imports/components/Button.qml</file>
+        <file>imports/components/DateTime.qml</file>
+        <file>imports/components/InsetShadow.qml</file>
+        <file>imports/components/InShadow.qml</file>
+        <file>imports/components/Label.qml</file>
+        <file>imports/components/OutShadow.qml</file>
+        <file>imports/components/qmldir</file>
+        <file>imports/system/App.qml</file>
+        <file>imports/system/qmldir</file>
+        <file>imports/system/System.qml</file>
+        <file>Main.qml</file>
+        <file>Rotated.qml</file>
+        <file>Scaled.qml</file>
+        <file>images/radio/animatedbars.gif</file>
+        <file>images/radio/animated-bars.gif</file>
+        <file>images/radio/play.png</file>
+        <file>images/radio/preset.png</file>
+        <file>images/radio/seek-back.png</file>
+        <file>images/radio/seek-forward.png</file>
+        <file>images/radio/soundbars.gif</file>
+        <file>images/radio/stop.png</file>
+        <file>images/application_grid.png</file>
+        <file>images/browser_app_icon.png</file>
+        <file>images/dashboard_app_icon.png</file>
+        <file>images/fmradio_app_icon.png</file>
+        <file>images/googlemaps_app_icon.png</file>
+        <file>images/Hex-Background.jpg</file>
+        <file>images/homescreen_icon.png</file>
+        <file>images/hvac_app_icon.png</file>
+        <file>images/jlr-logo.png</file>
+        <file>images/nfc_app_icon.png</file>
+        <file>images/settings_icon.png</file>
+        <file>images/weather_app_icon.png</file>
+        <file>fontawesome-webfont.ttf</file>
+    </qresource>
+</RCC>
