@@ -1,0 +1,13 @@
+
+To build:
+sysroots/x86_64-oesdk-linux/usr/bin/qt5/qmake
+make
+
+Files to deploy:
+fm-radio-app                    -> /opt/com.genivi.gdp.fmradio/bin/fm-radio-app
+imports                         -> /opt/com.genivi.gdp.fmradio/bin/imports
+com.genivi.gdp.fmradio.svg      -> /opt/com.genivi.gdp.fmradio/share/icons/com.genivi.gdp.fmradio.svg
+com.genivi.gdp.fmradio.app      -> /usr/share/applications/com.genivi.gdp.fmradio.app
+com.genivi.gdp.fmradio.service  -> /usr/lib/systemd/user/com.genivi.gdp.fmradio.service
+
+Given this install the launcher will automatically find the appliciation.

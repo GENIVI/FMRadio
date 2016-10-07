@@ -1,0 +1,4 @@
+Name=FM Radio
+Icon=file://opt/com.genivi.gdp.fmradio/share/icons/com.genivi.gdp.fmradio.svg
+Unit=com.genivi.gdp.fmradio
+Exec=/opt/com.genivi.gdp.fmradio/bin/fm-radio-app
