@@ -5,8 +5,6 @@ CONFIG += c++11
 
 SOURCES += main.cpp
 
-INCLUDEPATH += /usr/include
-
 target.path = /usr/bin
 
 RESOURCES += qml.qrc
