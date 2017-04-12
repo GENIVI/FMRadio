@@ -1,6 +1,0 @@
-[Unit]
-Description=FM Radio HMI
-
-[Service]
-Environment=LD_PRELOAD=/usr/lib/libEGL.so
-ExecStart=/opt/com.genivi.gdp.fmradio/bin/fm-radio-app -platform wayland
