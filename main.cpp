@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[])
 {
-    setenv("QT_QPA_PLATFORM", "wayland", 1); // force to use wayland plugin
+    setenv("QT_QPA_PLATFORM", /*"xcb", 1);//*/"wayland", 1); // force to use wayland plugin
     setenv("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1", 1);
 
 //    sd_journal_print(LOG_DEBUG, "GDP: fm radio app");
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
     QQuickView view(QUrl(QStringLiteral("qrc:/Main.qml")));
 
-    view.setProperty("IVI-Surface-ID", FM_RADIO_SURFACE_ID);
+//    view.setProperty("IVI-Surface-ID", FM_RADIO_SURFACE_ID);
     view.show();
 
     return app.exec();
