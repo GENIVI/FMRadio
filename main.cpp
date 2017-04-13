@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
     QQuickView view(QUrl(QStringLiteral("qrc:/Main.qml")));
 
-    view.setProperty("IVI-Surface-ID", FM_RADIO_SURFACE_ID);
+//    view.setProperty("IVI-Surface-ID", FM_RADIO_SURFACE_ID);
     view.show();
 
     return app.exec();
