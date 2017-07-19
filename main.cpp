@@ -3,8 +3,6 @@
 
 //#include <systemd/sd-journal.h>
 
-#define FM_RADIO_SURFACE_ID 3
-
 int main(int argc, char *argv[])
 {
     setenv("QT_QPA_PLATFORM", "wayland", 1); // force to use wayland plugin
@@ -16,7 +14,6 @@ int main(int argc, char *argv[])
 
     QQuickView view(QUrl(QStringLiteral("qrc:/Main.qml")));
 
-    view.setProperty("IVI-Surface-ID", FM_RADIO_SURFACE_ID);
     view.show();
 
     return app.exec();
